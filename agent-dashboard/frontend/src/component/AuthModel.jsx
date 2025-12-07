@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { AppContext } from '../ContextApi/AppContext'
-import Login from './login';
+import Login from './Login';
 import SignUp from './SignUp';
 import { LogIn, LogOut, User, X, Mail, Lock } from 'lucide-react';
 
