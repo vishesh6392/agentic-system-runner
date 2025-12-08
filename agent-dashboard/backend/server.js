@@ -12,7 +12,7 @@ const app=express();
 app.use(express.json());
  app.use(cookieParser());
 app.use(cors({
-  origin:'https://agentic-system-runner-ycxs.vercel.app'
+  origin:'https://agentic-system-runner-ycxs.vercel.app',
   credentials: true 
 
 }));
