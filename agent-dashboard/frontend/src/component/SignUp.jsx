@@ -20,9 +20,9 @@ function SignUp() {
                    "Content-Type": "application/json"
                 }});
               // console.log( res.data)
-              if(res?.data?.user){
+              if(res){
                  setIsLogin(true);
-                 setUser(res.data.user);
+                 setUser(res.data.userModel);
                  setEmail('');
                  setName('');
                  setPassword('');
